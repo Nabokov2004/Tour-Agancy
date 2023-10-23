@@ -10,6 +10,11 @@ function showChat(){
     chatMessages[0].classList.remove("hidden");
 }
 
+  
+  document.addEventListener('keydown', function (e) {
+    if(e.key === 'Escape') document.getElementsByClassName('chat-container')[0].classList.add("hidden");});
+ 
+
 
 
 

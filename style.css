@@ -216,3 +216,29 @@ opacity: 0;
     background-color: #14C90D;
   }
 /* --------------------------- */
+
+
+.dropdown-content {
+  min-width: max-content;
+  max-height: 0;
+  
+  background-color: #0074E0;
+  
+  display: none;
+ }
+ .dropdown-content {
+  position: fixed;
+  
+}
+
+/* The max-height should be set to something that will always be a little bit bigger than the height of the content. */
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  max-height: 200px;
+  display: block;
+  transition: max-height 1s ;
+}
+li:hover{
+  scale: 1.1;
+}
