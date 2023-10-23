@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Agency</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <section class="firstSection">
+    <header>
+      <div class="header_main_container">
+        <div class="logo_header">
+          <img src="./logo.png" alt="logo">
+        </div>
+        <nav>
+          <ul>
+            <li>
+              DESTINATIONS
+              <img src="./Vector.png" alt="">
+            </li>
+            <li>
+              travel styles
+              <img src="./Vector.png" alt="">
+            </li>
+            <li>
+              trip finder
+              <img src="./Vector.png" alt="">
+            </li>
+            <li>
+              trip finder
+              <img src="./Vector.png" alt="">
+            </li>
+            <li>
+              our advice
+              <img src="./Vector.png" alt="">
+            </li>
+            <li>
+              our advice
+              <img src="./Vector.png" alt="">
+            </li>
+            <li class="search">
+              <img src="./Icon.png" alt="">
+              <Button class="findButton_nav">
+                Find tour
+              </Button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <blockquote>
+        "Join us on our cultural <br>
+        walking adventures, as <br>
+        we explore the world <br>
+        on foot at eye level." <br>
+        <i>Edward Piegza, Founder</i>
+      </blockquote>
+      <form class="form_firstSection" action="">
+        <input placeholder="Search all tours" type="text">
+        <input placeholder="Search all tours" type="date">
+        <button>
+          VIEW TRIPS
+        </button>
+      </form>
+
+
+
+
+      <div class="chat-container hidden">
+        <div class="chat-header">
+          <h2>Chat</h2>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+        </div>
+        <div class="chat-input">
+          <input type="text" id="username" placeholder="Your Name">
+          <input type="text" id="message" placeholder="Type your message">
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chatMessage">
+          <img class="imgChatMessage" src="./mail-svgrepo-com.svg" alt="">
+          <img class="closeChat" src="./close_111152.svg" alt="" onclick="">
+          <br>
+          <div class="border">
+            Questions I'm happy <br>
+            to help. To start your chat, <br>
+            please share your email <br>
+            address with the Travel <br>
+            Experience Team.
+          </div>
+        </div>
+        
+        <button class="chatButton" onclick="showChat()">
+          <img src="./chat-svgrepo-com.svg" alt="">
+        </button>
+      </div>
+    </div>
+    <script src="./scripts.js">
+
+    </script>
+
+
+  </section>
+</body>
+
+</html>
